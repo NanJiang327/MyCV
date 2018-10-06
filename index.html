@@ -2,6 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127071144-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127071144-1');
+    </script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Aaron Jiang's CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,12 +26,14 @@
     </div>
     <div id="pagepiling">
         <!-- First Page -->
-        <div class="section center" id="home">
-            <img src="avatar" alt="img/avatar.jpg">
-            <h1 id="title">Aaron Jiang</h1>
-            <p id="subtitle">A Passionate, Creative and Devoted</p>
-            <h4>Front-End Developer</h4>
-            <p><a href="mailto:nj499521010@gmail.com">nj499521010@gmail.com</a></p>
+        <div id="particles-js">
+            <div class="section center" id="home">
+                <img src="avatar" alt="img/avatar.jpg">
+                <h1 id="title">Aaron Jiang</h1>
+                <p id="subtitle">A Passionate, Creative and Devoted</p>
+                <h4>Front-End Developer</h4>
+                <p><a href="mailto:nj499521010@gmail.com">nj499521010@gmail.com</a></p>
+            </div>
         </div>
 
         <!-- Project Page -->
@@ -126,20 +137,22 @@
 
         <!-- Learn More page -->
         <div class="section center">
-                <h1>Learn More</h1>
-                <h2><a href="http://zhangwenli.com/" target="_blank">Personal Website</a> | <a href="https://www.linkedin.com/in/wenlizhang" target="_blank">LinkedIn</a></h2>
-                <p>Email: <a href="mailto:me@zhangwenli.com" target="_blank">me@zhangwenli.com</a></p>
+            <h1>Learn More</h1>
+            <h2><a href="#" target="_blank">Personal Website</a> | <a href="https://www.linkedin.com/in/wenlizhang" target="_blank">LinkedIn</a></h2>
+            <p>Email: <a href="mailto:nj499521010@gmail.com" target="_blank">nj499521010@gmail.com</a></p>
 
-                <h2><a href="Web Front-End Wenli Zhang.pdf" target="_blank" class="highlight">Download CV</a></h2>
-                <div id="contact-panel">
-                    <a class="social-share-element social-twitter" href="https://twitter.com/OviliaZhang" target="_blank" title="Follow me on Twitter" onclick="_gaq.push(['_trackEvent', 'Follow', 'Twitter', 'InCv']);"></a>
-                    <a class="social-share-element social-google" href="https://plus.google.com/u/0/112802684720065263732?rel=author" target="_blank" title="Follow me on Google Plus" onclick="_gaq.push(['_trackEvent', 'Follow', 'GPlus', 'InCv']);"></a>
-                    <a class="social-share-element social-github" href="https://github.com/Ovilia" target="_blank" title="Follow me on GitHub" onclick="_gaq.push(['_trackEvent', 'Follow', 'GitHub', 'InCv']);"></a>
-                    <a class="social-share-element social-linkedin" href="http://www.linkedin.com/profile/view?id=148742016" target="_blank" title="Follow me on LinkedIn" onclick="_gaq.push(['_trackEvent', 'Follow', 'LinkedIn', 'InCv']);"></a>
-                    <a class="social-share-element social-weibo" href="http://weibo.com/plainjane" target="_blank" title="Follow me on Sina Weibo" onclick="_gaq.push(['_trackEvent', 'Follow', 'Weibo', 'InCv']);"></a>
-                    <a class="social-share-element social-douban" href="http://www.douban.com/people/ovilia1024/" target="_blank" title="Follow me on Douban" onclick="_gaq.push(['_trackEvent', 'Follow', 'Douban', 'InCv']);"></a>
-                </div>
+            <h2><a href="#.pdf" target="_blank" class="highlight">Download CV</a></h2>
+            <div id="contact-panel">
+                <a class="social-share-element social-github" href="https://github.com/NanJiang327" target="_blank" title="Follow me on GitHub"></a>
+                <a class="social-share-element social-linkedin" href="https://www.linkedin.com/in/nan-jiang-12520a142" target="_blank" title="Follow me on LinkedIn"></a>
+                <a class="social-share-element social-weibo" href="https://www.weibo.com/1875855147" target="_blank" title="Follow me on Sina Weibo"></a>
             </div>
+        </div>
     </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.pagepiling.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/particles.js"></script>
 </body>
 </html>
