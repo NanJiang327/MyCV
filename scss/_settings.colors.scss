@@ -1,0 +1,45 @@
+$color-primary:          #22C3AA;  // green
+$color-light:            #AEE2D9;  // light green
+$color-lighter:          #EEF3F0;  // lighter green
+$color-dark:             #008A75;  // dark green
+$color-darker:           #096254;  // darker green
+$color-contrast:         #99FF33;  // yellow green
+$color-def:              #666;
+$color-def-light:        #CCC;
+$color-def-lighter:      #EFEFEF;
+$color-def-lightest:     #FFF;
+$color-def-dark:         #444;
+$color-def-darker:       #333;
+$color-def-darkest:      #000;
+
+// Page
+$color-page-back: $color-def-lighter;
+$color-page-footer-back: $color-def-darkest;
+
+// Links
+$color-link:          $color-dark;
+$color-link--active:  $color-def;
+$color-link--hover:   $color-contrast;
+$color-link--visited: $color-def;
+
+// Text
+$color-text: $color-def;
+
+// Title
+$color-h1:    $color-primary;
+$color-h2-6:  $color-def-dark;
+
+// Quotes
+$color-qt:            $color-def-dark;
+$color-qt-back:       $color-light;
+$color-license-back:  $color-lighter;
+$color-code-back:     $color-lighter;
+
+
+
+
+// Buttons
+$color-btn:               $color-def-lighter;
+$color-btn-back:          $color-link;
+$color-btn-back--hover:   $color-link--hover;
+$color-btn-back--visited: $color-link--visited;

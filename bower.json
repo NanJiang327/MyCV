@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "authors": [
+    "NanJiang327 <nj499521010@gmail.com>"
+  ],
+  "description": "Front-end developer",
+  "main": "",
+  "keywords": [
+    "CV",
+    "Front-end Developer"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

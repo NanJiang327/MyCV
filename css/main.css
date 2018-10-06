@@ -1,0 +1,87 @@
+body {
+  font-family: Lato, "Microsoft YaHei", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em; }
+
+h1 {
+  font-size: 3.5em;
+  margin: 0 0 0.5em 0;
+  margin-top: 0; }
+
+h2 {
+  font-size: 2em;
+  margin: 0 0 0.2em 0;
+  margin-top: 0; }
+
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+h4 {
+  font-size: 1.25em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+h5 {
+  font-size: 1.2em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+h6 {
+  font-size: 1.1em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+p {
+  font-size: 1.1em;
+  margin: 0.5em 0; }
+
+ul {
+  font-size: 1.1em; }
+
+a {
+  color: #008A75;
+  text-decoration: none;
+  transition: 0.5s; }
+  a:hover {
+    color: #99FF33; }
+  a.hightlight {
+    color: #99FF33; }
+    a.hightlight:hover {
+      color: #008A75; }
+
+#lang-panel {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 5px;
+  z-index: 100;
+  font-size: 0.8em; }
+  #lang-panel .lang {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 8px; }
+    #lang-panel .lang.selected {
+      background-color: #AEE2D9;
+      color: #008A75;
+      cursor: default; }
+
+* {
+  box-sizing: border-box; }
+
+.section {
+  background: #22C3AA;
+  color: #EEF3F0;
+  padding: 50px;
+  transition: 0.5s; }
+  .section.initing {
+    display: none; }
+  .section.leaving {
+    background-color: #99FF33; }
+
+.center {
+  text-align: center; }
+
+.clearboth {
+  clear: both; }
