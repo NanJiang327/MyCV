@@ -8,7 +8,6 @@ window.mobilecheck = function() {
       if(mobilecheck()) {
           $('html').addClass('moblie');
       } else {
-          particlesJS.load('particles-js', './assets/particles.json')
           var en = ['Home', 'Projects', 'Skills', 'Education', 'Internship', 'Contact Me'];
           var cn = ['首页', '项目', '技能', '教育', '实习', '联系'];
           var isCn = window.location.href.indexOf('cn.html') >= 0;

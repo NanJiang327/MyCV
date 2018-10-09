@@ -117,6 +117,9 @@ a {
 * {
   box-sizing: border-box; }
 
+ul {
+  list-style: none; }
+
 .section {
   background: #22C3AA;
   color: #EEF3F0;
@@ -289,3 +292,62 @@ a {
     .social-share-element .footer-follow-element:hover {
       background-color: #DB6968;
       border-radius: 50%; }
+
+.mobile * {
+  text-shadow: none !important; }
+
+.mobile #avatar {
+  width: 128px;
+  height: 128px;
+  border: 0; }
+
+.mobile .circle-img {
+  margin: 20px 10px; }
+
+.mobile h2 {
+  text-align: center; }
+
+.mobile h1 {
+  font-size: 2.625em;
+  margin: 0 0 0.5em 0;
+  margin-top: 0; }
+
+.mobile h2 {
+  font-size: 1.5em;
+  margin: 0 0 0.2em 0;
+  margin-top: 0; }
+
+.mobile h3 {
+  font-size: 1.125em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+.mobile h4 {
+  font-size: 0.9375em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+.mobile h5 {
+  font-size: 0.9em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+.mobile h6 {
+  font-size: 0.825em;
+  margin: 0 0 0.1em 0;
+  margin-top: 0; }
+
+.mobile p {
+  font-size: 0.88em; }
+
+.mobile ul {
+  font-size: 0.88em; }
+
+.mobile .section {
+  padding: 50px 10px; }
+
+.mobile #profession.section.center {
+  text-align: left; }
+
+.mobile #project.section {
+  text-align: center; }
