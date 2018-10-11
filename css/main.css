@@ -149,6 +149,9 @@ ul {
   border-radius: 50%;
   background-color: #008A75;
   padding: 18px; }
+  .circle-img img {
+    width: 64px;
+    height: 64px; }
   .circle-img:hover {
     opacity: 0.8; }
 

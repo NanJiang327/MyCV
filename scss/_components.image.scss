@@ -16,6 +16,11 @@ $avatar-r: 200px;
     background-color: $color-dark;
     padding: 18px;
 
+    img {
+       width: 64px;
+       height: 64px; 
+    }
+
     &:hover {
         opacity: 0.8;
     }
