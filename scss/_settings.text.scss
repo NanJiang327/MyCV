@@ -1,3 +1,11 @@
+@keyframes typing {
+    from { width: 0;}
+}
+
+@keyframes caret {
+    50% { border-color: transparent;}
+}
+
 p {
     color: $color-light;
 }
@@ -25,6 +33,19 @@ h1, h2, h3, h4, h5, h6 {
 ul {
     color: $color-light;
 }
+
+
+#ani-text {
+    font-family: monospace;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 19ch;
+    border-right: 1px solid;
+    animation:  typing 6s steps(19),
+                caret 1s steps(1) infinite;  
+}
+
 
 #title {
     margin: 0.25em 0 0 0;

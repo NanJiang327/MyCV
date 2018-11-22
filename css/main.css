@@ -40,6 +40,14 @@ p {
 ul {
   font-size: 1.1em; }
 
+@keyframes typing {
+  from {
+    width: 0; } }
+
+@keyframes caret {
+  50% {
+    border-color: transparent; } }
+
 p {
   color: #AEE2D9; }
 
@@ -58,6 +66,15 @@ h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
 
 ul {
   color: #AEE2D9; }
+
+#ani-text {
+  font-family: monospace;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 19ch;
+  border-right: 1px solid;
+  animation: typing 6s steps(19), caret 1s steps(1) infinite; }
 
 #title {
   margin: 0.25em 0 0 0; }
