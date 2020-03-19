@@ -23,7 +23,7 @@
 ## Experience
 ### Company: NZME. <span class="right red">Auckland, New Zealand</span>
 <span class="bold">Position: Web developer</span>
-<span class="right">June 2019 - Present</span>
+<span class="right">Jun 2019 - Present</span>
 
 NZME is a leading New Zealand media and entertainment business that reaches 3.2 million kiwis. I joint as a Web Developer to help update existing login & subscription journeys on NZ Herald website and re-build NZ Herald website using React.
 
